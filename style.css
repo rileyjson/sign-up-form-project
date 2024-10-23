@@ -11,15 +11,17 @@ body {
 
 @font-face {
   font-family: FiraSans;
-  src: url(./fira-sans/FiraSans-Regular.otf);
+  src: url(./webfontkit/firasans-regular-webfont.woff),
+    url(./webfontkit/firasans-regular-webfont.woff2);
 }
 @font-face {
   font-family: FiraSansBold;
-  src: url(./fira-sans/FiraSans-SemiBold.otf);
+  src: url(./webfontkit/firasans-bold-webfont.woff),
+    url(./webfontkit/firasans-bold-webfont.woff2);
 }
 @font-face {
   font-family: FiraSansBold2;
-  src: url(./fira-sans/FiraSans-Bold.otf);
+  src: url(.././fira-sans/FiraSans-Bold.otf);
 }
 
 fieldset {
