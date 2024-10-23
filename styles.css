@@ -1,0 +1,169 @@
+:root {
+  font-family: FiraSans;
+  --my-space-blue: #002d62;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+@font-face {
+  font-family: FiraSans;
+  src: url(../fonts/fira-sans/FiraSans-Regular.otf);
+}
+@font-face {
+  font-family: FiraSansBold;
+  src: url(../fonts/fira-sans/FiraSans-SemiBold.otf);
+}
+@font-face {
+  font-family: FiraSansBold2;
+  src: url(../fonts/fira-sans/FiraSans-Bold.otf);
+}
+
+fieldset {
+  border: 0;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--my-space-blue);
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 10px 15px;
+}
+
+.password-input input:invalid {
+  outline: none;
+  border-color: red;
+}
+
+.text-container {
+  height: 25vh;
+  max-width: 75%;
+  display: flex;
+  padding-left: 40px;
+  font-family: FiraSansBold;
+  font-size: 18px;
+}
+
+.form-container {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 50vh;
+  width: 100%;
+}
+
+.name-input,
+.email-phone,
+.password-input {
+  display: flex;
+  gap: 60px;
+  padding: 10px;
+}
+
+input {
+  width: 18vw;
+  height: 4vh;
+  border-color: #e5e7eb;
+  border-radius: 5px;
+}
+
+form,
+label {
+  display: flex;
+}
+
+label {
+  font-size: 12px;
+  color: #002244;
+}
+
+form {
+  padding-left: 40px;
+}
+
+.form-container > h3 {
+  padding-left: 45px;
+}
+
+.rispace-img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.rispace-img:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.left-side {
+  height: 100vh;
+}
+
+.logo > p {
+  font-size: 10px;
+  color: antiquewhite;
+  position: absolute;
+  bottom: 5px;
+  left: 150px;
+}
+
+.logo > p > a {
+  color: whitesmoke;
+}
+.rocket-img {
+  display: block;
+  width: 450px;
+  height: 100%;
+  border-image: 40 round;
+}
+
+.create-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.create-account button {
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  width: 20vw;
+  background-color: var(--my-space-blue);
+  color: white;
+  font-weight: 800;
+}
+
+.create-account button:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.login-redirect {
+  font-size: 12px;
+}
+
+.login-redirect a {
+  color: var(--my-space-blue);
+}
+
+.login-redirect a:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="left-side">
+          <img
+            class="rocket-img"
+            src="./images/rocket.jpg"
+            alt="Rocket Launch"
+          />
+
+        <div class="logo">
+          <img class="rispace-img" src="./images/rispace.png" alt="rispace" />
+          <p>Photo by <a href="https://unsplash.com/@billjelen">Bill Jelen</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="text-container">
+          <p>
+            Welcome to RiSpace! This is a place that will blow you away. A way
+            to connect and interact with friends and new friends alike! There is
+            a place for everyone in RiSpace, even when your place is far far
+            away.
+          </p>
+        </div>
+        
+
+        <div class="form-container">
+          <h3>Welcome in! Sign-up</h3>
+
+          <form>
+              <div class="forms">
+              <div class="name-input">
+                <div>
+                <label for="first-name">FIRST NAME</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  name="name"
+                  placeholder="John"
+                  required
+                />
+              </div>
+<div>
+                <label for="last-name">LAST NAME</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  name="name"
+                  placeholder="Smith"
+                  required
+                />
+              </div>
+              </div>
+
+              <div class="email-phone">
+              <div>
+                <label for="email-address">EMAIL</label>
+
+                <input
+                  type="email"
+                  id="email-address"
+                  name="email"
+                  placeholder="johnsmith@example.com"
+                  required
+                />
+              </div>
+              <div>
+                <label for="phone-number">PHONE NUMBER</label>
+
+                <input
+                  type="tel"
+                  id="phone-number"
+                  name="phone"
+                  placeholder="555-555-5555"
+                  required
+                />
+              </div>
+              </div>
+
+              <div class="password-input">
+                <div>
+                <label for="password">PASSWORD</label>
+
+                <input
+                  type="password"
+                  id="password"
+                  name="pass"
+                  placeholder="Password"
+                  minlength="8"
+                  required
+                />
+                </div>
+              <div>
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+
+                <input
+                  type="password"
+                  id="confirm-password"
+                  name="confirm-pass"
+                  placeholder="Confirm Password"
+                  required
+                />
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="create-account">
+            <div class="button-container">
+              <button>Create Account</button>
+            </div>
+          </form>
+
+          <div class="login-redirect">
+            <p>
+              Already have an account?
+              <a href="https://www.google.com">Log in</a>
+            </p>
+          </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
