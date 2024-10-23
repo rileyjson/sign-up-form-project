@@ -11,15 +11,15 @@ body {
 
 @font-face {
   font-family: FiraSans;
-  src: url(../fonts/fira-sans/FiraSans-Regular.otf);
+  src: url(../../fonts/fira-sans/FiraSans-Regular.otf);
 }
 @font-face {
   font-family: FiraSansBold;
-  src: url(../fonts/fira-sans/FiraSans-SemiBold.otf);
+  src: url(../../fonts/fira-sans/FiraSans-SemiBold.otf);
 }
 @font-face {
   font-family: FiraSansBold2;
-  src: url(../fonts/fira-sans/FiraSans-Bold.otf);
+  src: url(../../fonts/fira-sans/FiraSans-Bold.otf);
 }
 
 fieldset {
